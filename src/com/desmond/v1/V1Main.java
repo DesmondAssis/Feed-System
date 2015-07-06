@@ -10,7 +10,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import com.desmond.v1.bean.Channel;
 import com.desmond.v1.bean.Rss;
 
 public class V1Main {
@@ -62,7 +61,7 @@ public class V1Main {
 		Rss rss = V1Main.readString(Rss.class, "G:/gitHub/projects/Feed-System/src/com/desmond/v1/files/finance.xml");
 		
 		System.out.println(rss);
-	}
+	}	
 	
 	
 	

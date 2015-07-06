@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/show_new_final.xsl" media="all"?>
+<!--
+SINA Corporation (NASDAQ: SINA) is a leading online media company and value-added information service (VAS) provider for China and for Chinese communities worldwide. With a branded network of localized websites targeting Greater China and overseas Chinese, SINA provides services through five major business lines including SINA.com (online news and content), SINA Mobile (mobile value-added services), SINA Online (community-based services and games), SINA.net (search and enterprise services) and SINA E-commerce (online shopping), offering Internet users and government and business clients an array of services including online media and entertainment, online fee-based VAS/wireless VAS, and e-commerce and enterprise e-solutions.
+With 230 million registered users worldwide, 450 million daily page views and over 60 million active users for a variety of fee-based services, SINA is the most recognized Internet brand name in China and among Chinese communities globally.
+In various surveys and polls, SINA has been recognized as the most valuable brand and the most popular website in China. For 2003 and 2005, SINA was ranked the "Most Preferred Website" in China according to the Chinese Academy of Social Sciences and considered "The Most Respected Chinese Company" for three consecutive years in 2003, 2004 and 2005 by the Economic Observer and the Management Case Study Center of Beijing University. At the same time, South China Weekend in both 2003 and 2004 honored SINA with the prestigious award of the "Chinese Language Medium of the Year."
+****[pid:1,tid:87,did:13,fid:2299]****-->
+<rss version="2.0">
+	<channel>
+		<title>
+			<![CDATA[焦点新闻-新浪财经]]>
+		</title>
+		<image>
+			<title>
+				<![CDATA[财经焦点新闻]]>
+			</title>
+			<link>http://finance.sina.com.cn</link>
+			<url>http://www.sinaimg.cn/home/deco/2009/0330/logo_home.gif</url>
+		</image>
+		<description>
+			<![CDATA[财经焦点新闻]]>
+		</description>
+		<link>http://finance.sina.com.cn</link>
+		<language>zh-cn</language>
+		<generator>WWW.SINA.COM.CN</generator>
+		<ttl>5</ttl>
+		<copyright>
+			<![CDATA[Copyright 1996 - 2015 SINA Inc. All Rights Reserved]]>
+		</copyright>
+		<pubDate>Thu, 2 Jul 2015 12:10:04 GMT</pubDate>
+		<category>
+			<![CDATA[]]>
+		</category>
+		<item>
+			<title>
+				<![CDATA[7月2日央视新闻联播精选]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/xwlbjx/20150702/200622575548.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/xwlbjx/20150702/200622575548.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 12:06:27 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　习近平就印尼军机坠毁事件向印尼总统致慰问电
+
+　　国家主席习近平7月2日就印尼军机坠毁事件致电印尼总统佐科表示慰问。
+
+　　习近平表示，惊悉贵国空军一架运输机6月30日在苏门答腊岛棉兰市附近坠毁，造成机上和地面大量人员遇难。我谨代表中国政府和人民，对这起不幸事....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[特斯拉S型车二季度交付量飙升52%]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/world/20150702/200522575545.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/world/20150702/200522575545.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 12:05:37 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　新浪财经讯 北京时间7月2日晚间消息，特斯拉汽车公司周四宣布，其S型电动汽车第二季度的交付量达到创纪录的11,507辆，较去年同期增长52%。
+
+　　这一数字远高于该公司此前预期的1万到1.1万辆。受此推动，特斯拉股价盘前上涨超过4%。
+
+　　特斯拉原定于每个季度结束后第三....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[医保巨头Centene宣布68亿美元收购HealthNet ]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/world/20150702/195622575505.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/world/20150702/195622575505.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:56:32 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　新浪财经讯 北京时间7月2日晚间消息，美国医疗保险巨头Centene Corp周四宣布，已同意通过一次现金加股票交易以大约68亿美元的价格收购竞争对手Health Net Inc，交易价格中包括后者5亿美元的债务。
+
+　　Centene表示，合并后的公司将在全美拥有超过1000万个会员，2016年试算....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[市场失灵急需行政干预 建议这10大救市措施！]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://blog.sina.com.cn/s/blog_66dd17cd0102vp4v.html</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://blog.sina.com.cn/s/blog_66dd17cd0102vp4v.html</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:56:12 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[金道环球投资：贵金属在非农前仍下跌]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/nmetal/20150702/194022575385.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/nmetal/20150702/194022575385.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:40:00 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　【黄金/美元】 
+
+　　走势分析：
+
+　　黄金/美元在上一个交易日中黄金价格整体走势 。
+
+　　消息面上分析，美国COMEX 8月黄金期货价格周三(7月1日)收盘下跌2.50美元，跌幅0.2%，报1169.30美元/盎司。周三金价跌至近一个月来的低位，美国经济数据利好，带动美元及美股走....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[金道环球投资：关注晚间的非农数据]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/forex/20150702/193822575364.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/forex/20150702/193822575364.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:38:29 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　日期：2015年7月2日&nbsp;&nbsp;&nbsp;作者：周游
+
+　　在上一个交易日的外汇市场焦点从希腊转移到了美国一系列重要的经济数据，结果美国公布的ADP就业数据表现良好，对周四非农数据起到了良好的指引，同时其他数据也表现靓丽，支撑了美联储9月就加息的预期，在此影响下，美....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[金裕黄金:就业提振美指 黄金深入调整 ]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/nmetal/20150702/192922575334.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/nmetal/20150702/192922575334.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:29:36 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　金裕黄金分析师周四(7月2日)根据金市数据显示对今日行情预测如下：
+
+　　今日重要基本面：
+
+　　国际现货黄金昨日收跌5美元后失守1170关口，空头情绪弥漫使得反弹动力较为疲弱，于1167附近弱势整理凸显走势不振；美元指数隔夜大涨后则回调修正，位于96.16附近盘整。昨日美....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[SMP：美国非农数据来袭 非美继续遭到抛售]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/forex/20150702/192822575331.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/forex/20150702/192822575331.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:28:48 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　今日将迎来备受关注的美国非农数据报告，近期美国发布的数据普遍向好，加息问题再度引发外界争论，美元指数受此推动继续走高，而非美货币在利空因素打压下继续遭到抛售。
+
+　　昨日美国发布的数据显示，美国ADP私人企业就业报告显示就业人数增长23.7万人，预期增长20.5万人....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[高新兴半年度利润分配预案 拟10转14股]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/192722575340.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/192722575340.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:27:00 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　中证网讯 高新兴（300098）7月2日晚间公告，公司2015年半年度利润分配预案为：以截止 2015 年 6 月 30 日公司总股本29，358.432 万股为基数，使用资本公积金转增股本，向全体股东每 10 股转增 14 股，共计转增 41，101.8048 万股，转增后公司总股本将增加至 70，460.2368 万股....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[金一文化半年报利润分配拟10转增20股]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/190922575219.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/190922575219.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 11:09:09 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　中国证券网讯(记者 严政)金一文化7月2日晚间发布中报高送转预案，公司2015年半年度拟向全体股东每10股转增20股。
+
+　　公告称，鉴于公司目前生产经营情况，以及公司未来发展的良好预期，为回报公司股东，与所有股东分享公司成长的成果，在符合利润分配原则，保证公司正常经....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[7月2日晚间上市公司利好消息一览]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/185822575159.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/s/20150702/185822575159.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 10:58:23 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　新浪财经讯 7月2日晚间，沪深两市多家上市公司发布了公告。以下是公告利好消息一览：
+
+　　宝鹰股份获实控人增持102万股 
+
+　　宝鹰股份7月2日晚间公告称，基于对目前资本市场形势的认识及对公司未来稳定发展前景的信心，公司实际控制人古少明于7月2日通过交易系统买入公....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[世界银行：全球粮价跌至五年最低]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/future/fmnews/20150702/184822575082.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/future/fmnews/20150702/184822575082.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 10:48:57 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　2015年7月1日，华盛顿：国际市场粮价在2014年8月至2015年5月期间下跌14%，跌至五年最低，世界银行最新一期《粮食价格观察》称。
+
+　　受低油价影响2014年全球粮食供应充足， 2015年小麦、玉米和大米丰收在望，这些因素导致国际粮价大幅下落。农业和食品行业继续受益于去年原....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[中指院：楼市逐步回暖趋势基本确立]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/china/20150702/184822575080.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/china/20150702/184822575080.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 10:48:45 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　中指院：初步统计，2015年上半年，50个代表城市住宅月均成交约2600万平方米，同比增长25.5%，绝对量创2010年以来同期最高水平。]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[东兴证券：A股驶入对流层 牛市宏观动力仍在]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/marketresearch/20150702/183022575030.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/stock/marketresearch/20150702/183022575030.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 10:30:05 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　东兴证券 王凭
+
+　　核心观点
+
+　　(一)泡沫难以彻底破裂。
+
+　　(二)下半年A股资金供需关系弱于上半年，市场进入第四阶段，修复之后， 节奏换挡，从单边“牛”进入震荡市。
+
+　　(三)看好国企改革和中国制造2025。
+
+　　(四)如要跨越“对流层”驶入“平流层”需新....]]>
+			</description>
+		</item>
+		<item>
+			<title>
+				<![CDATA[外媒：中国证监会检查股指期货做空数据]]>
+			</title>
+			<link>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/gzqh/20150702/182022574960.shtml</link>
+			<author>SINA.com</author>
+			<guid>http://go.rss.sina.com.cn/redirect.php?url=http://finance.sina.com.cn/money/gzqh/20150702/182022574960.shtml</guid>
+			<category>
+				<![CDATA[财经新闻]]>
+			</category>
+			<pubDate>Thu, 2 Jul 2015 10:20:00 GMT</pubDate>
+			<comments></comments>
+			<description>
+				<![CDATA[　　彭博援引知情人士称，中国证监会检查股指期货做空数据。
+
+　　6月中旬以来，A股市场经历了历史罕见的“股灾”。为了防范市场风险，中国当局在采取一系列措施后又检查股指期货做空数据，此举或许会对恶意做空中国股市进行限制。
+
+　　此前，市场一直将矛盾的焦点归结于场外....]]>
+			</description>
+		</item>
+	</channel>
+</rss>

@@ -1,66 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Feed-System" basedir="." default="makewar">  
-    <property name="classpath_lib" value="WebContent/WEB-INF/lib" />  
-    <property name="sources" value="${basedir}/src"/>    
-	<property name="build" value="${basedir}/build" />
-     
-    <path id="classpath">
-		 <!--添加lib 中的jar 包到软件中-->         
-        <fileset dir="${classpath_lib}">     
-            <include name="*.jar"/>     
-        </fileset>
-		
-		<!--添加lib 之外的包-->  
+<project name="Feed-System" basedir="." default="war">
+	<property name="classpath.lib" value="WebContent/WEB-INF/lib" />
+	<property name="source.dir" value="${basedir}/src" />
+	<property name="build.dir" value="${basedir}/output" />
+	<property name="classes.dir" value="${basedir}/output/classes" />
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="webapps" value="${build.dir}/webapps" />
+	<property name="jar.name" value="TestJar.jar" />
+	<property name="jar.source.name" value="TestJar-src.jar" />
+
+	<!-- jars from third-party -->
+	<path id="lib-classpath">
+		<!--添加lib 中的jar 包到软件中-->
+		<fileset dir="${classpath.lib}">
+			<include name="*.jar" />
+		</fileset>
+
+		<!--添加lib 之外的包-->
 		<fileset dir="G:\gitHub\runtime\apache-tomcat-7.0.55\lib">
 			<include name="*.jar" />
-		</fileset>     
-    </path>     
-       
-    <property name="debuglevel" value="source,lines,vars"/>  
-       
-    <property name="target" value="1.6"/>  
-    <property name="source" value="1.6"/>  
-       
-    <target name="init" depends="clean">
-		<property name="dist" value="${basedir}/dist"/>
-        <property name="webapps" value="${build}/webapps" />
+		</fileset>
+	</path>
+
+	<property name="debuglevel" value="source,lines,vars" />
+
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+
+	<target name="init" depends="clean">
 		
-		<mkdir dir="${dist}"/>
-		<mkdir dir="${build}"/>		
-        <mkdir dir="${webapps}\WEB-INF"/>  
-        <mkdir dir="${webapps}\WEB-INF\classes"/>  
-        <mkdir dir="${webapps}\WEB-INF\lib"/>  
-        <copy todir="${webapps}">  
-            <fileset dir="${basedir}\WebContent">  
-                <include name="WEB-INF/**" />  
-                <include name="**" />
-            </fileset>  
-        </copy>  
-    </target>
-	
-	<target name="clean">
-		<echo message="${build}" />
-		<delete includeEmptyDirs="true">
-			
-			<fileset dir="${build}" includes="**/*" />
-			
-		</delete>
+
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${webapps}\WEB-INF" />
+		<mkdir dir="${webapps}\WEB-INF\classes" />
+		<mkdir dir="${webapps}\WEB-INF\lib" />
+		<copy todir="${webapps}">
+			<fileset dir="${basedir}\WebContent">
+				<include name="WEB-INF/**" />
+				<include name="**" />
+			</fileset>
+		</copy>
 	</target>
-	
-    <target name="complie" depends="init">
-	 <!--添加源文件内容和编码utf-8 因为默是系统的本地时间--> 
-        <javac srcdir="${sources}" destdir="${webapps}/WEB-INF/classes" encoding="utf-8" classpathref="classpath"></javac>  
-    </target>
-	
-   <!--生成war 包结构-->  
-    <target name="makewar" depends="complie">  
-        <war warfile="${dist}/feed-system.war" webxml="${webapps}/WEB-INF/web.xml">  
-			<lib dir="${webapps}/WEB-INF/lib">  
-				<include name="**" />  
-			</lib>  
-			
-			<classes dir="${webapps}/WEB-INF/classes"/>  
-			<fileset dir="${webapps}"/>  
-        </war>  
-    </target>  
+
+	<target name="clean">
+		<echo message="delete: ${build.dir}" />
+		<delete includeEmptyDirs="true">
+			<fileset dir="${build.dir}" includes="**/*" />
+
+		</delete>
+		
+	</target>
+
+	<target name="compile" depends="init,resources">
+		<!--添加源文件内容和编码utf-8 因为默是系统的本地时间-->
+		<javac srcdir="${source.dir}" destdir="${classes.dir}" encoding="utf-8" classpathref="lib-classpath">
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile" description="package classes/src to jar">
+		<jar destfile="${dist.dir}/${jar.name}" basedir="${build.dir}">
+			<manifest>
+				<attribute name="Author" value="Desmond Li" />
+				<attribute name="Email" value="devtiger@163.com" />
+				<attribute name="Blog" value="http://blog.csdn.net/firemaple_li" />
+				<attribute name="Main-Class" value="com.desmond.v1.V1Main" />
+			</manifest>
+		</jar>
+		
+		<jar destfile="${dist.dir}/${jar.source.name}" basedir="${source.dir}" />
+	</target>
+
+	<!-- Copy any resource or configuration files -->
+	<target name="resources">
+		<copy todir="${classes.dir}" includeEmptyDirs="no">
+			<fileset dir="${source.dir}/com/desmond/v1">
+				<patternset>
+					<include name="**/*.conf" />
+					<include name="**/*.properties" />
+					<include name="**/*.xml" />
+				</patternset>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="run" depends="jar" description="run test example">
+		<java jar="${dist.dir}/${jar.name}" fork="true" failonerror="true" maxmemory="128m">
+			<classpath refid="lib-classpath" />
+		</java>
+	</target>
+
+	<target name="copy-classes" depends="compile">
+		<copy todir="${webapps}\WEB-INF\classes">
+			<fileset dir="${classes.dir}">
+				<include name="**/**"/>
+			</fileset>
+				
+		</copy>
+	</target>
+	<!--生成war 包结构-->
+	<target name="war" depends="copy-classes">
+		<war warfile="${dist.dir}/feed-system.war" webxml="${webapps}/WEB-INF/web.xml">
+
+			<fileset dir="${webapps}" />
+		</war>
+	</target>
 </project>
